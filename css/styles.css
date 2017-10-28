@@ -117,6 +117,13 @@
 	color: #0000FF;
 }
 
+.calendar {
+	display: flex;
+	margin-left: 9%;
+	margin-right: 35%;
+	margin-top: 6%;
+}
+
 .calendar-pro-links {
 	display: flex;
 	justify-content: space-evenly;
