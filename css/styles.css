@@ -132,6 +132,7 @@
 	width: 100%;
 }
 
+
 .category-links {
 	display: flex;
 	margin-left: 10%;
@@ -429,7 +430,7 @@
 }
 
 .links a, .links-bottom a {
-	color: color: rgb(33,120,128); 
+	color: rgb(33,120,128); 
 	text-decoration: none;
 }
 
@@ -486,14 +487,18 @@
 
 .main-block input {
 	background-color: lightgray;
-	margin-top: 15px;
-	margin-bottom: 15px;	
+	margin-top: 23px;
+	margin-bottom: 15px;
+	height: 26%;
+	padding-bottom: 1%;
+	color: black;
+	display: inline-flex;
 }
 
 .main-block img {
 	height: 5%;
 	width: 5%;
-	margin-top: 15px;
+	margin-top: 21px;
 	margin-bottom: 15px;
 }
 
@@ -717,6 +722,17 @@ ul {
 		padding-left: 8%;
 	}
 
+	.calendar-pro-links img {
+	height: 80%;
+	width: 80%;
+	margin-left: 8%;
+}
+
+	.hamburger {
+		display: flex;
+		justify-content: flex-end;
+	}
+
 	.headline-join {
 		font-size: 8px;
 	}
@@ -736,10 +752,19 @@ ul {
 		width: 6.5%;
 	}
 
+	.links {
+		display: none;
+	}
+
 	.links-bottom {
 		font-size: 8px;
 		margin-right: 0px;
 		margin-left: 0px;
+	}
+
+
+	.main-block img {
+		width: 7%;
 	}
 
 	.sponsers {
@@ -779,10 +804,6 @@ ul {
 	.links-bottom {
 		margin-right: 0px;
 		margin-left: 0px;
-	}
-
-	.main-block input {
-		width: 20%;
 	}
 
 	.slideshow {
