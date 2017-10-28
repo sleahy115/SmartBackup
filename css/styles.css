@@ -711,7 +711,7 @@ ul {
 	z-index: 1;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:1000px) {
 	.bottom-footer a, .bottom-footer p {
 		padding-right: 0%;
 		padding-left: 8%;
@@ -770,7 +770,7 @@ ul {
 	}
 }
 
-@media screen and (min-width:500px) and (max-width:800px)  {
+@media screen and (min-width:1000px) and (max-width:2048px)  {
 	.bottom-footer a, .bottom-footer p {
 		padding-right: 0%;
 	}
@@ -789,6 +789,8 @@ ul {
 	.hamburger {
 		display: flex;
 		justify-content: flex-end;
+		margin-right: 15%;
+		margin-top: 1%;
 	}
 
 	.headline-join {
@@ -814,7 +816,7 @@ ul {
 
 }
 
-@media screen and (min-width: 800px) and (max-width: 2048px) {
+@media screen and (min-width: 2048px) and (max-width: 5000px) {
     .hamburger {
 		display: none;
 	}
